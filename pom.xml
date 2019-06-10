@@ -11,6 +11,10 @@
     <modules>
         <module>Arrays</module>
         <module>ArrayList</module>
+        <module>AutoBoxingAndUnboxing</module>
+        <module>LinkedList</module>
+        <module>Interfaces</module>
+        <module>InnerClasses</module>
     </modules>
 
 

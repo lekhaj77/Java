@@ -8,6 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ArrayList" />
         <module name="Arrays" />
+        <module name="AutoBoxingAndUnboxing" />
+        <module name="InnerClasses" />
+        <module name="Interfaces" />
+        <module name="LinkedList" />
       </profile>
     </annotationProcessing>
   </component>
