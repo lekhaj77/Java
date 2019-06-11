@@ -50,6 +50,8 @@ public class Gearbox {
         return revs * gears.get(currentGear).getRatio();
     }
 
+    // this is used only with GearBox and not used by itself
+    // normally inner class are private
     private class Gear {
         private int gearNumber;
         private double ratio;

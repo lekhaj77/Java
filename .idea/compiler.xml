@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Interfaces" />
         <module name="ArrayList" />
+        <module name="AbstractClasses" />
+        <module name="InnerClasses" />
+        <module name="LinkedList" />
         <module name="Arrays" />
         <module name="AutoBoxingAndUnboxing" />
-        <module name="InnerClasses" />
-        <module name="Interfaces" />
-        <module name="LinkedList" />
       </profile>
     </annotationProcessing>
   </component>

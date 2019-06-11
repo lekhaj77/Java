@@ -6,6 +6,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+       /*
+       *
+       * this is used only if the inner class is public
+       *
+       * */
+
+//        Gearbox verna = new Gearbox(6);
+//        Gearbox.Gear first = verna.new Gear(1,1.0);
+//        System.out.println(first.driveSpeed(1000));
+
 //        class ClickListener implements Button.OnClickListener {
 //            public ClickListener() {
 //                System.out.println("I've been attached");

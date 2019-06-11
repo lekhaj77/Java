@@ -15,6 +15,7 @@
         <module>LinkedList</module>
         <module>Interfaces</module>
         <module>InnerClasses</module>
+        <module>AbstractClasses</module>
     </modules>
 
 
