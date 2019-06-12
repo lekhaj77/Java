@@ -28,6 +28,8 @@ public class Main {
 //        }
 //
 //        btnPrint.setOnClickListener(new ClickListener());
+
+        // example of anonymous inner class
         btnPrint.setOnClickListener(new Button.OnClickListener() {
 
             public void onClick(String title) {

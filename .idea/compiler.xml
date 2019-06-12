@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Interfaces" />
+        <module name="Generics" />
         <module name="ArrayList" />
         <module name="AbstractClasses" />
+        <module name="COllections" />
         <module name="InnerClasses" />
         <module name="LinkedList" />
         <module name="Arrays" />
