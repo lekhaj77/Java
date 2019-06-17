@@ -1,4 +1,4 @@
-package BinarySearch;
+package ListMethods;
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ import java.util.*;
  */
 public class Theatre {
     private final String theatreName;
-    private List<Seat> seats = new ArrayList<>();
+    public List<Seat> seats = new ArrayList<>();
 
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
         this.theatreName = theatreName;
@@ -31,7 +31,6 @@ public class Theatre {
 
         while (low <= high) {
             System.out.print(".");
-            //search algo
             int mid = (low + high) / 2;
             Seat midVal = seats.get(mid);
             int cmp = midVal.getSeatNumber().compareTo(seatNumber);
@@ -55,7 +54,7 @@ public class Theatre {
         }
     }
 
-    private class Seat implements Comparable<Seat> {
+    public class Seat implements Comparable<Seat> {
         private final String seatNumber;
         private boolean reserved = false;
 
@@ -65,8 +64,6 @@ public class Theatre {
 
         @Override
         public int compareTo(Seat seat) {
-
-            //compares the seatnumber if they are capitals or small letters
             return this.seatNumber.compareToIgnoreCase(seat.getSeatNumber());
         }
 
