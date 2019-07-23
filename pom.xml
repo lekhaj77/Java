@@ -18,6 +18,7 @@
         <module>AbstractClasses</module>
         <module>Generics</module>
         <module>COllections</module>
+        <module>InputAndOutput</module>
     </modules>
 
     <build>

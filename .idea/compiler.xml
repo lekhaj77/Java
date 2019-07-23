@@ -13,6 +13,7 @@
         <module name="COllections" />
         <module name="Generics" />
         <module name="InnerClasses" />
+        <module name="InputAndOutput" />
         <module name="Interfaces" />
         <module name="LinkedList" />
       </profile>
