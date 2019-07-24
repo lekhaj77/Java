@@ -18,6 +18,7 @@ public class Intro {
         return s.nextInt();
     }
 
+    //Look before you Leap (LBYL)
     private static int getIntLBYL() {
         Scanner s = new Scanner(System.in);
         boolean isValid = true;
@@ -35,6 +36,7 @@ public class Intro {
         return 0;
     }
 
+    //Easier to ask for forgiveness than permission (EAFP)
     private static int getIntEAFP() {
         Scanner s = new Scanner(System.in);
         System.out.println("Please enter an integer ");
